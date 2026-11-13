@@ -32,7 +32,7 @@ function App() {
         {error && <div className="error">{error}</div>}
         {loading && (
           <div className="loading">
-            <i className="fa-solid fa-spinner fa-spin"></i>
+            Loading...
           </div>
         )}
         {users.map((user) => (
